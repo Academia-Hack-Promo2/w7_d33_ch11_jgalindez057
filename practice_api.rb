@@ -28,15 +28,17 @@ class People
 end
 
 person = People.new
- print person.add_user({
- name: "John",
- address: "Gato negro",
-  fullname: "John Galindez",
-  gender: "male",
-  email: "galindezj2@gmail.com",
-  phone: "04125826938",
-  username: "@johngalindez"
- });
+ #print person.add_user({
+ #name: "John",
+ #address: "Gato negro",
+ # fullname: "John Galindez",
+ # gender: "male",
+ # email: "galindezj2@gmail.com",
+ # phone: "04125826938",
+ # username: "@johngalindez"
+ #});
+
+ #print person.edit_user("@johngalindez",{"status": "active"});
 
 
 
